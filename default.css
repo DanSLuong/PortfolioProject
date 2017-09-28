@@ -1,0 +1,38 @@
+body{
+    position: relative;
+    text-align: center;
+    font-family: Calibri;
+    width: 90%;
+    margin-left: 5%;
+}
+.myName{
+    position: relative;
+    text-align: right;
+    width: 100%;
+    font-size: 4em;
+}
+.myTitle{
+    position: relative;
+    text-align: right;
+}
+.dividerLine{
+    border-bottom: 6px solid #7d97ad;
+    margin-bottom: 20px;
+}
+.projectImage{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+h2{
+    color: #7d97ad;
+    text-align: left;
+}
+.codeImage{
+    width: 100%;
+    height: 100%;
+}
+.featured{
+    background-color: gray;
+}
+
