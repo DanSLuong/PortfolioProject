@@ -7,17 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="default.css">
+  <link rel="stylesheet" type="text/css" href="css/default.css">
 </head>
 
-<body>
+<body class="conttainer">
 
-  <div>
+  <header class="container">
     <!--Name, title, and a divider created using a border-bottom CSS-->
-    <h1 class="myName">Danny Luong</h1>
-    <h3 class="myTitle">Full Stack Student</h3>
-    <div class="dividerLine"></div>
-  </div>
+    <!--row for logo and name-->
+    <div class="row">
+      <img src="https://media.glassdoor.com/o/659776/udacity-squarelogo-1458083545831.jpg" class="logoImage col-md-6" alt="Logo"></img>
+      <h1 class="myName col-md-6">Danny Luong</h1>
+      <h3 class="myTitle col-md-12">Full Stack Student</h3>
+      <div class="dividerLine col-md-12"></div>
+    </div>
+  </header>
 
   <!--Image of random code-->
   <img class="codeImage" src="https://i.gyazo.com/bce5002773ff7bb149c955ff3112adb7.png"></img>
@@ -26,24 +30,24 @@
   <!--div with the class container-fluid-->
   <div class="container-fluid bg-3 text-center">
     <!--class row will alow us to arrange the project images according to the page size-->
-    <div class="row featured"></div>
-    <div class="col-md-4 col-sm-6">
-      <a href="https://github.com/DanSLuong/Movie-Trailer-Website/blob/master/fresh_tomatoes.html">
-              <img src="https://i.gyazo.com/cf6c7ba617ef6e7d177ee64c5d865f96.jpg" class="projectImage" style="width:100%" alt="Image"></img>
-              <h1>Fresh Tomatoes!</h1>
-            </a>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <img src="https://placehold.it/150x80?text=IMAGE" class="projectImage" style="width:100%" alt="Image"></img>
-      <h1>App 02</h1>
-      <p class="projectLink">HTML Link</p>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <img src="https://placehold.it/150x80?text=IMAGE" class="projectImage" style="width:100%" alt="Image"></img>
-      <h1>App 03</h1>
-      <p class="projectLink">HTML Link</p>
-    </div>
-  </div>
+    <section class="row featured">
+      <article class="col-md-4 col-sm-6">
+        <a href="https://github.com/DanSLuong/Movie-Trailer-Website/blob/master/fresh_tomatoes.html">
+          <img src="https://i.gyazo.com/cf6c7ba617ef6e7d177ee64c5d865f96.jpg" class="projectImage" alt="Image"></img>
+          <h1>Fresh Tomatoes!</h1>
+        </a>
+      </article>
+      <article class="col-md-4 col-sm-6">
+        <img src="https://placehold.it/150x80?text=IMAGE" class="projectImage"alt="Image"></img>
+        <h1>App 02</h1>
+        <p class="projectLink">HTML Link</p>
+      </article>
+      <article class="col-md-4 col-sm-6">
+        <img src="https://placehold.it/150x80?text=IMAGE" class="projectImage" alt="Image"></img>
+        <h1>App 03</h1>
+        <p class="projectLink">HTML Link</p>
+      </article>
+    </section>
   </div>
 
   </div>
