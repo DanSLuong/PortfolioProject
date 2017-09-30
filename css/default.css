@@ -2,11 +2,16 @@ body{
     position: relative;
     text-align: center;
     font-family: Calibri;
-    width: 90%;
+    max-width: 100%;
     margin-left: 5%;
+    margin-right:5%;
+}
+header{
+    text-align: right;
 }
 .logoImage{
-    width: 15%;
+    min-height: 5%;
+    max-width: 15%;
     float: left;
 }
 .myName{
@@ -39,4 +44,3 @@ h2{
 .featured{
     background-color: white;
 }
-
